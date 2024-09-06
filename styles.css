@@ -136,3 +136,35 @@ th, td {
     outline: none;
     box-shadow: 0 0 5px rgba(139,0,0,0.5);
 }
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    width: 48%;
+    text-align: center;
+}
+
+.bordered-image {
+    width: 100%;
+    height: auto;
+    border: 3px solid #8B0000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(139,0,0,0.3);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8B0000;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
