@@ -86,3 +86,37 @@ th, td {
     background-color: #fffaf0;
     color: #333;
 }
+
+.story-section {
+    background-color: #fff5e6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #B22222;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#main-title {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+#sources-dropdown {
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #8B0000;
+    border-radius: 3px;
+}
+
+#gods-titans-table {
+    box-shadow: 0 0 10px rgba(139,0,0,0.1);
+}
